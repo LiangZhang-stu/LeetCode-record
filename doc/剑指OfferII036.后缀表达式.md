@@ -28,7 +28,7 @@
 从前往后遍历，如果是数字就压入堆栈，如果是运算符就弹出堆栈的两个栈顶元素进行运算，当运算符为`-`,`/`时，需注意堆栈的先进后出原则。
 
 **代码**
-```
+```python
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []

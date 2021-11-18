@@ -28,7 +28,7 @@
 	- 如果栈顶元素`stack[-1]`为正数，如果`stack[-1]+num`为正数
 
 **代码**
-```
+```python
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         stack = []

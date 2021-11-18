@@ -18,7 +18,7 @@
 从后往前遍历`temperatures`，利用单调栈存储元素的下标
 
 **代码**
-```
+```python
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         stack = []
