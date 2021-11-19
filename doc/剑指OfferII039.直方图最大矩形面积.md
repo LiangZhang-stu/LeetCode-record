@@ -10,7 +10,9 @@
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 **示例 **
+
 <img src="..\pic\histogram.jpg" style="zoom:50%;" />
+
 ```
 输入：heights = [2,1,5,6,2,3]
 输出：10
@@ -70,6 +72,9 @@ class Solution:
             ans = max(ans, h * (last_idx - stack[-1] - 1))
         return ans
 ```
+
 **复杂度分析**
+
 时间复杂度：`O(n)`
+
 空间复杂度：`O(n)`

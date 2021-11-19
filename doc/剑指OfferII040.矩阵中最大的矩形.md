@@ -10,9 +10,8 @@
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 **示例**
-<!-- <div align=center> -->
-<!-- <img src="..\pic\maximal.jpg" style="zoom:50%;" /> -->
-<img src="..\pic\maximal.jpg" style="zoom:50%;" div align=center />
+
+<img src="..\pic\maximal.jpg" style="zoom:50%;" />
 
 ```
 输入：matrix = ["10100","10111","11111","10010"]
@@ -59,6 +58,9 @@ class Solution:
             ans = max(ans, self.largestRectangleArea(height))
         return ans
 ```
+
 **复杂度分析**
+
 时间复杂度：`O(n^2)`
+
 空间复杂度：`O(n)`
