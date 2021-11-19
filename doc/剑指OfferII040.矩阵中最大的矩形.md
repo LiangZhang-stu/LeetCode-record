@@ -12,7 +12,8 @@
 **示例 **
 <!-- <div align=center> -->
 <!-- <img src="..\pic\maximal.jpg" style="zoom:50%;" /> -->
-<img src="..\pic\maximal.jpg" style="zoom:50%;" div align=right />
+<img src="..\pic\maximal.jpg" style="zoom:50%;" div align=center />
+
 
 ```
 输入：matrix = ["10100","10111","11111","10010"]
