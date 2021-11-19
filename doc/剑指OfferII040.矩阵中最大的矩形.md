@@ -9,11 +9,10 @@
 
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-**示例 **
+**示例**
 <!-- <div align=center> -->
 <!-- <img src="..\pic\maximal.jpg" style="zoom:50%;" /> -->
 <img src="..\pic\maximal.jpg" style="zoom:50%;" div align=center />
-
 
 ```
 输入：matrix = ["10100","10111","11111","10010"]
